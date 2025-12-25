@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', system-ui, sans-serif;
+    background: radial-gradient(circle at top, #0f2027, #000);
+    color: #eee;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero span {
+    background: linear-gradient(90deg, #ffb347, #ffcc33);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 20px auto;
+    color: #bbb;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.primary,
+.secondary {
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.primary {
+    background: #ffb347;
+    color: #000;
+    font-weight: bold;
+}
+
+.secondary {
+    border: 1px solid #555;
+    color: #fff;
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    margin: 60px auto;
+    padding: 40px;
+    max-width: 900px;
+}
+
+/* SKILLS */
+.skills {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.skill-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill-card {
+    padding: 20px;
+    background: linear-gradient(145deg, #1e1e1e, #111);
+    border-radius: 14px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+/* PROJECTS */
+.project-box {
+    margin-bottom: 25px;
+}
+
+/* CAPSULE CONTACT */
+.capsule {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.capsule form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.capsule input,
+.capsule textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: none;
+    background: #111;
+    color: #fff;
+}
+
+.capsule button {
+    background: #ffb347;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
